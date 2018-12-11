@@ -1,0 +1,144 @@
+/* The navbar container */
+.topnav {
+    overflow: hidden;
+	background-color:white
+
+}
+ol {
+	list-style-type: none;
+	margin: 0px;
+	height:100px;
+	padding: 0px;
+	overflow: hidden;
+	border: 1px solid #e7e7e7;
+	background-color: #f3f3f3;
+	font-family: Arial, Helvetica, sans-serif; 
+
+}
+
+
+li {
+	float: right;
+}
+li a {
+	display: block;
+	color: #666;
+	text-align: center;
+	margin-top: 25px;
+	margin-left: 10px;
+	font-size: 22px;
+	padding: 14px 16px;
+	text-decoration: none;
+	
+}
+
+}
+
+.left {
+	float: left;
+	height: 110px;
+	width: 50%;
+	margin-left: 330px;
+	background:#4aaaa5;
+	border:2px;
+	font-family: Arial, Helvetica, sans-serif; 
+
+
+}   
+
+
+li b {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 30px 20px;
+	margin-right: 600px;
+	text-decoration: none;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:40px;
+	background-color: #4aaaa5
+}
+
+li a:hover:not(.active) {
+	background-color: #ddd;
+}
+
+li a.active {
+	color: white;
+	background-color: #4CAF50;
+}
+
+/* Navbar links */
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    padding: 14px 16px;
+	text-decoration: none;
+	text-align: center;
+}
+
+/* Links - change color on hover */
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.title  {
+	border-bottom: #666; 
+	border-bottom-color: 5px;
+	font-color:#4aaaa5;
+}
+.jumbotron {
+    background-color: turquoise
+}
+
+.jumbotron h1 {
+	color:white;
+}
+
+p, h1, h4 {
+	font-family: 'Roboto Slab', serif;
+}
+
+#funText {
+	color: black;
+	font-size: 24px;
+	font-family: 'Roboto Slab', serif;
+}
+
+#box {
+	height: 100px;
+	width: 100px;
+	margin:auto;
+}
+.column {
+    float: left;
+}
+
+/* Left and right column */
+.column.side {
+    width: 25%;
+}
+
+/* Middle column */
+.column.middle {
+    width: 50%;
+}
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column.side, .column.middle {
+    width: 100%;
+  }
+}
+
+
+.aboutMe {
+	background-color: #f3f3f3;
+    width: 900px; height: 600px;
+	border: 2px solid lightgrey;
+    padding: 5px;
+	margin-bottom: 300px;
+	margin-left: 330px;
+	margin-top: 50px;
+}
